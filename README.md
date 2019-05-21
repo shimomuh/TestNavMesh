@@ -26,8 +26,8 @@
 
 実はいっぱい先見の人がいて、それを Unity 2019.3.0a2 形式でアレンジしただけだったりする。
 
-* [NavMeshの使い方　その１ - テラシュールブログ](http://tsubakit1.hateblo.jp/entry/20120127/1327591104)
-* [NavMeshの使い方　その１ - テラシュールブログ](http://tsubakit1.hateblo.jp/entry/20120128/1327679742)
+* [NavMeshの使い方　その1 - テラシュールブログ](http://tsubakit1.hateblo.jp/entry/20120127/1327591104)
+* [NavMeshの使い方　その2 - テラシュールブログ](http://tsubakit1.hateblo.jp/entry/20120128/1327679742)
 * [NavMesh Agent の作成 - Unity Documentation](https://docs.unity3d.com/ja/2018.1/Manual/nav-CreateNavMeshAgent.html)
 * [NavMeshAgent - Unity Docmentation](https://docs.unity3d.com/ja/current/ScriptReference/AI.NavMeshAgent.html)
 
