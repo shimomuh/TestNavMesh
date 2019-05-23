@@ -45,3 +45,14 @@
 それと、 テラシュールブログでも触れられているが、この機能は Rigidbody とは別の力で動いているので、 Rigidbody をつけたところで重力を無視して接地しやがった（クソゥ...
 
 ![](./src/ignore-gravity.gif)
+
+## 追記
+
+と、思っていたら、 [2016/11/10 のテラシュールブログ](http://tsubakit1.hateblo.jp/entry/2016/11/10/235816) で再度 NavMesh に触れられていて
+
+* Rigidbody の IsKinematic を false にしつつ NavmeshAgent.updatePosition を false にして NavmeshAgent.Stop を呼ぶ
+* 接地したら NavmeshAgent.SamplePosition で NavmeshAgent.updatePosition を trueにしたり Rigidbody.isKinematic を true にしつつ agent.transform.localPosition を agent.Wrap で Navmesh 上の座標に変換する
+
+これらによって、実現できていた。
+
+やればなんでもできるものだなぁ、みつを。
